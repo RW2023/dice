@@ -1,0 +1,48 @@
+:root {
+    --overlay: rgba(184, 193, 236, 0.5);
+    --background: #232946;
+    --button: #ff8906;
+    --headline: #fffffe;
+    --paragraph: #b8c1ec;
+    --buttonText: #232946;
+    --stroke: #121629;
+    --main: #b8c1ec;
+    --highlight: #eebbc3;
+    --secondary: #fffffe;
+    --tertiary: #eebbc3;
+}
+
+/* CSS Reset */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100%;
+    min-width: 100vh;
+}
+
+/* End of CSS Reset */
+
+.die{
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--headline);
+    text-shadow: 1px 1px 1px black;
+    transition: all 0.3s ease-in-out;
+    margin: auto;
+}
+
+body{
+    background-color: var(--background);
+}
